@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>数据面板</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+		  <div class="col">
+	  	  <nav class="navbar navbar-expand fixed-top navbar-dark bg-primary">
+	  	  	<a class="navbar-brand" href="#">某管理系统</a>
+	  	  	<div class="collapse navbar-collapse" id="daohangtiao">
+	  	  		<ul class="navbar-nav ml-auto">
+	  	  			<li class="nav-item dropdown">
+	  	  				<a class="nav-link dropdown-toggle" href="#" id="daohang" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">用户操作</a>
+	  	  				<div class="dropdown-menu" aria-labelledby="daohang">
+	  	  					<a class="dropdown-item" href="#">个人中心</a>
+	  	  					<div class="dropdown-divider"></div>
+	  	  					<a class="dropdown-item" href="#">退出</a>
+	  	  				</div>
+	  	  			</li>
+	  	  		</ul>
+	  	  	</div>
+	  		</nav>
+	  		<ul class="left-box pt-3">
+	  			<li><a href="index.html">首页</a></li>
+	  			<li><a href="user.html">用户中心</a></li>
+	  			<li><a href="search.html">数据查询</a></li>
+	  			<li class="active"><a href="data.html">数据面板</a></li>
+	  			<li><a href="tip.html">提醒事项</a><span class="ml-3 badge badge-pill badge-warning">4</span></li>
+	  		</ul>
+	  		<div class="right-box">
+	  			<nav aria-label="breadcrumb">
+	  			  <ol class="breadcrumb">
+	  			    <li class="breadcrumb-item active" aria-current="page">数据面板</li>
+	  			  </ol>
+	  			</nav>
+					<div class="container-fluid">
+						<div class="row">
+						  <div class="col-lg-6">
+						  	<h6 class="date-title">最新的10个用户</h6>
+						  	<table class="table table-bordered table-striped table-hover">
+						  	  <thead>
+						  	    <tr>
+						  	      <th scope="col">用户id</th>
+						  	      <th scope="col">First</th>
+						  	      <th scope="col">Last</th>
+						  	      <th scope="col">Handle</th>
+						  	    </tr>
+						  	  </thead>
+						  	  <tbody>
+						  	    <tr>
+						  	      <th scope="row">1</th>
+						  	      <td>Mark</td>
+						  	      <td>Otto</td>
+						  	      <td>@mdo</td>
+						  	    </tr>
+						  	    <tr>
+						  	      <th scope="row">2</th>
+						  	      <td>Jacob</td>
+						  	      <td>Thornton</td>
+						  	      <td>@fat</td>
+						  	    </tr>
+						  	    <tr>
+						  	      <th scope="row">3</th>
+						  	      <td>Larry</td>
+						  	      <td>the Bird</td>
+						  	      <td>@twitter</td>
+						  	    </tr>
+						  	  </tbody>
+						  	</table>
+						  </div>
+						  <div class="col-lg-6">
+						  	<h6 class="date-title">最活跃的10个用户</h6>
+						  	<table class="table table-bordered table-striped table-hover">
+						  	  <thead>
+						  	    <tr>
+						  	      <th scope="col">用户id</th>
+						  	      <th scope="col">First</th>
+						  	      <th scope="col">Last</th>
+						  	      <th scope="col">Handle</th>
+						  	    </tr>
+						  	  </thead>
+						  	  <tbody>
+						  	    <tr>
+						  	      <th scope="row">1</th>
+						  	      <td>Mark</td>
+						  	      <td>Otto</td>
+						  	      <td>@mdo</td>
+						  	    </tr>
+						  	    <tr>
+						  	      <th scope="row">2</th>
+						  	      <td>Jacob</td>
+						  	      <td>Thornton</td>
+						  	      <td>@fat</td>
+						  	    </tr>
+						  	    <tr>
+						  	      <th scope="row">3</th>
+						  	      <td>Larry</td>
+						  	      <td>the Bird</td>
+							  	      <td>@twitter</td>
+							  	    </tr>
+						  	  </tbody>
+						  	</table>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

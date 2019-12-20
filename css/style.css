@@ -1,0 +1,43 @@
+.left-box {
+	width: 12rem;
+	position: fixed;
+	top: 3.5rem;
+	left: 0;
+	bottom: 0;
+	background: #283643;
+	padding: 0;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+.left-box li {
+	padding: 0 2rem;
+	height: 3rem;
+	line-height: 3rem;
+	width: 100%;
+	color: #fff;
+	cursor: pointer;
+}
+.left-box a {
+	text-decoration: none;
+	color: #fff;
+}
+.left-box li:hover {
+	background: #3c4248;
+}
+.left-box li.active {
+	background: #3c4248;
+}
+.right-box {
+	position: fixed;
+	top: 3.5rem;
+	left: 12rem;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+}
+.date-title {
+	height: 3rem;
+	color: #6c757d;
+	line-height: 3rem;
+	border-bottom: 2px solid #e9ecef;
+}
